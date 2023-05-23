@@ -1,4 +1,4 @@
-Django
-django-extensions
-python-decouple
-requests
+Django==4.2.1
+django-extensions==3.2.1
+python-decouple==3.8
+requests==2.31.0
