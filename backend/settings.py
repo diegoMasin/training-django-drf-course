@@ -35,9 +35,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # third party apps
     'django_extensions',
-    # here
     # my apps
-    'backend.core'
+    'backend.core',
+    'backend.cursos'
 
 ]
 

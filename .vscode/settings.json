@@ -3,7 +3,7 @@
   
     // PEP8 and formatting
     "python.linting.enabled": true,
-    "python.formatting.provider": "autopep8",
+    "python.formatting.provider": "none",
     "[python]": {
       "editor.defaultFormatter": "ms-python.autopep8"
     },
