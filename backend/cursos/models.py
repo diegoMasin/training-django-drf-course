@@ -22,7 +22,7 @@ class Course(Base):
         return str(self.title)
 
 
-class Rating(Base):
+class Rating(Base):  # type: ignore[attr-defined]
     course = models.ForeignKey(
         Course, related_name='ratings', on_delete=models.CASCADE)
     evaluator_name = models.CharField(max_length=255)
