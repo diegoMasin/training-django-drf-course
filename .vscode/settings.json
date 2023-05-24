@@ -10,6 +10,14 @@
     "editor.codeActionsOnSave": {
       "source.organizeImports": true,
     },
+
+    // PyLint
+    "pylint.args": [
+      "--ignore=tests",
+      "--disable=C0114",
+      "--disable=C0115",
+      "--disable=C0116"
+    ],
   
     // Others  
     "files.associations": {

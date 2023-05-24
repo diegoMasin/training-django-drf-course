@@ -18,8 +18,8 @@ class Course(Base):
         verbose_name = 'Course'
         verbose_name_plural = 'Courses'
 
-    def __str__(self):
-        return self.title
+    def __str__(self) -> str:
+        return str(self.title)
 
 
 class Rating(Base):
