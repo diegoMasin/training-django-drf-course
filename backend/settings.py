@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework',
     # my apps
-    'backend.core',
     'backend.cursos',
 ]
 
